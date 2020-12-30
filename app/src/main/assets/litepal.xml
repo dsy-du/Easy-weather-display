@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litpal>
+
+        <dbname value="weather"></dbname>//设置数据库名
+        <version value="1"></version>>//设置更新的系号
+        <list>
+           <mapping class="dsy.example.weatherapp.db.City"/>
+            <mapping class="dsy.example.weatherapp.db.County"/>
+            <mapping class="dsy.example.weatherapp.db.Province"/>
+        </list>
+
+</litpal>
