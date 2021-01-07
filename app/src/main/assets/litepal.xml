@@ -2,7 +2,7 @@
 <litpal>
 
         <dbname value="weather"></dbname>//设置数据库名
-        <version value="1"></version>>//设置更新的系号
+        <version value="1"></version>>//设置更新的版本号
         <list>
            <mapping class="dsy.example.weatherapp.db.City"/>
             <mapping class="dsy.example.weatherapp.db.County"/>

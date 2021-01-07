@@ -242,6 +242,9 @@ public class ChooseAreaFragment extends Fragment {
 
             @Override
             public void onFailure(Call call, IOException e) {
+                System.out.println("------------------------");
+                System.out.println("网络加载："+e.getMessage());
+                System.out.println("------------------");
                 // 通过runOnUiThread()方法回到主线程处理逻辑
                 getActivity().runOnUiThread(new Runnable() {
                     @RequiresApi(api = Build.VERSION_CODES.M)
